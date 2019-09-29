@@ -12,7 +12,6 @@ function hideModal (button) {
         //  prevButton.disabled = false;
         //  nextButton.disabled = false;
 
-
 }
 
 /**
