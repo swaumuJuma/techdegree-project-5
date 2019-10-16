@@ -16,7 +16,7 @@ html, body {
 body {
     font-family: "Nunito", sans-serif;
     text-align: center;
-    background: rgba(235, 235, 235, 0.9);
+    background: darkgrey;
 }
 
 header {
@@ -152,11 +152,17 @@ header h1 {
     right: 15px;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.9);
-    background: rgba(0, 0, 0, 0.8);
+    background:green;
     outline: none;
     border-radius: 0.25em;
     border: 1px solid rgba(50, 50, 50, 0.3);
 }
+
+
+.modal-close-btn:hover {
+	color: rgba(0, 0, 0, 0.8);
+}
+
 
 .modal-img {
     width: 150px;
@@ -169,7 +175,7 @@ header h1 {
 }
 
 .modal-text {
-    color: rgba(50, 50, 50, 0.7);
+    color: black;
     margin: 10px;
 }
 
@@ -201,7 +207,7 @@ header h1 {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.9);
     padding: 0.75em 1.5em;
-    background: #4CAF50;;
+    background: green;
     border-radius: 0.35em;
     transition: .4s ease-out;
     outline: none;
@@ -240,7 +246,6 @@ header h1 {
 }
 
 
-
 /* =====================================
    Desktop
    Hover styles on desktop
@@ -249,9 +254,8 @@ header h1 {
 @media (min-width: 1024px) {
 
     .card:hover {
-        background: #60ffbd;
+        background: rgba(255, 255, 255, 1);
         border: 1px solid rgba(50, 50, 50, 0.9);
-        transform: scale(1.08);
     }
 
     .card:hover .card-text {
